@@ -10,7 +10,7 @@ terraform {
     organization = "lucas-lab"
 
     workspaces {
-      name = "terraform-basics-projects"
+      name = "gke-cluster-lab"
     }
   }
 }
