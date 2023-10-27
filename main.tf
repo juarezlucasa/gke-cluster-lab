@@ -42,8 +42,8 @@ module "gke" {
       name            = "node-pool"
       machine_type    = var.machinetype
       node_locations  = "us-east1-b,us-east1-c"
-      min_count       = 3
-      max_count       = 5
+      min_count       = 2
+      max_count       = 3
       disk_size_gb    = 30
       spot            = false
       auto_upgrade    = true
