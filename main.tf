@@ -41,7 +41,7 @@ module "gke" {
     {
       name            = "node-pool"
       machine_type    = var.machinetype
-      node_locations  = "us-east1-a,us-east1-b"
+      node_locations  = "us-east1-b,us-east1-c"
       min_count       = 3
       max_count       = 5
       disk_size_gb    = 30
